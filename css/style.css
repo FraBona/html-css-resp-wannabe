@@ -1,41 +1,6 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
-
-@media (max-width:768px){
-
-    .container{
-        max-width: 100%;
-    }
-    .container > h2{
-        max-width: 100%;
-    }
-}
-
-@media (max-width:468px){
-    .row{
-        flex-wrap: wrap;
-    }
-
-    .lessons .col{
-        width: 100%;
-        margin: 30px 0px;
-    }
-
-    .steps .row .col{
-        width: 100%;
-    }
-
-    .why-us .row {
-        display: block;
-    }
-
-    .why-us .row .col{
-        width: 100%;
-        margin: 30px 30px;
-    }
-}
-
 *,
 *::before,
 *::after {
@@ -163,3 +128,37 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media (max-width:768px){
+
+    .container{
+        max-width: 100%;
+    }
+    .container > h2{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:568px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .lessons .col{
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .steps .row .col{
+        width: 100%;
+    }
+
+    .why-us .row {
+        display: block;
+    }
+
+    .why-us .row .col{
+        width: 100%;
+        margin: 30px 30px;
+    }
+}
