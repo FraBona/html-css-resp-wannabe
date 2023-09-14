@@ -139,7 +139,7 @@ img {
     }
 }
 
-@media (max-width:568px){
+@media (max-width:468px){
     .row{
         flex-wrap: wrap;
     }
