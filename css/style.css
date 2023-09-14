@@ -1,6 +1,17 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
+
+@media (max-width:768px){
+
+    .container{
+        max-width: 100%;
+    }
+    .container > h2{
+        max-width: 100%;
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -13,6 +24,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     color: #b8c1ec;
     background: #232946;
+    overflow-x: hidden;
 }
 
 h1,
@@ -76,7 +88,7 @@ img {
 }
 
 /* LESSONS SECTION */
-.lessons .col {
+.lessons .col{
     width: 50%;
 }
 
